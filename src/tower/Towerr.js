@@ -122,6 +122,7 @@ function App() {
       <Header
         color="dark"
         brand="DataPydia"
+        style={{ 'marginLeft' : '300px' }}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
