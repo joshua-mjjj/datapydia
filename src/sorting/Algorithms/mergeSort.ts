@@ -1,4 +1,4 @@
-import { createNewTracker, addStepToTracker, getSortedIndicesArray } from './helperFunctions.ts';
+import { createNewTracker, addStepToTracker, getSortedIndicesArray } from './helperFunctions';
 import { Tracker } from '../IterationTrackerInterface';
 
 // need to initialize tracker and pass to this function since it's recursive

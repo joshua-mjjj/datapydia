@@ -1,4 +1,4 @@
-import {Tracker, TrackerStep} from './IterationTrackerInterface';
+import {Tracker, TrackerStep} from '../IterationTrackerInterface';
 // swaps values in an array at the two indexes
 export function swap(list:Array<number>, i1:number, i2:number):void {
     const temp:number = list[i1];

@@ -32,7 +32,7 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        color="transparent"
+        color="info"
         routes={dashboardRoutes}
         brand="DataPydia"
         rightLinks={<HeaderLinks />}

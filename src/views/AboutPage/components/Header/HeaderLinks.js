@@ -31,6 +31,7 @@ export default function HeaderLinks(props) {
         <Button
           href="/"
           color="transparent"
+          style={{ 'marginLeft' : '300px' }}
           className={classes.navLink}
         >
            Home

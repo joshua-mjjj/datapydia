@@ -1,4 +1,4 @@
-import { swap, createNewTracker, addStepToTracker } from './helperFunctions.ts';
+import { swap, createNewTracker, addStepToTracker } from './helperFunctions';
 import { Tracker } from '../IterationTrackerInterface';
 
 export const BubbleSort = (list: Array<number>):Tracker => {

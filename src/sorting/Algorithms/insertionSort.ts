@@ -1,4 +1,4 @@
-import { swap, createNewTracker, addStepToTracker, getSortedIndicesArray } from './helperFunctions.ts';
+import { swap, createNewTracker, addStepToTracker, getSortedIndicesArray } from './helperFunctions';
 import { Tracker } from '../IterationTrackerInterface';
 
 export const InsertionSort = (list:Array<number>):Tracker => {

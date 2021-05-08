@@ -25,11 +25,12 @@ const useStyles = makeStyles(styles);
 export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
-    <List className={classes.list}>
+    <List  className={classes.list}>
       
       <ListItem className={classes.listItem}>
         <Button
           href="/"
+          style={{ 'marginLeft' : '300px' }}
           color="transparent"
           className={classes.navLink}
         >
