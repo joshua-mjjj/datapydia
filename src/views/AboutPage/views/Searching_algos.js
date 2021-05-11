@@ -125,7 +125,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
   };
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  const stack_video_link = "https://www.youtube.com/watch?v=CgFVgp_VCN8"
+  const linear_search_video_link = "https://youtu.be/C46QfTjVCNU"
 
 
  const linear_searc = (e) => {
@@ -230,7 +230,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
           <Popper id={id} open={open} anchorEl={anchorEl}>
             <Paper className={classes.paper}>
              <Share 
-               stack_video_link={stack_video_link}/>
+               linear_search_video_link={linear_search_video_link}/>
             </Paper> 
           </Popper>
 
@@ -437,7 +437,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target="_blank" href={linear_search_video_link}>{linear_search_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

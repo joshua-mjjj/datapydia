@@ -106,7 +106,6 @@ export default function Blog() {
     setExpanded(!expanded);
   };
 
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
 
   const [ user_value,     setValue ]          = React.useState("");
   // const [ search_value,   setSearch_input ]   = React.useState("");
@@ -126,10 +125,10 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
   };
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  const stack_video_link = "https://www.youtube.com/watch?v=CgFVgp_VCN8"
+  const sorting_video_link = "https://youtu.be/8BI2MNnwrKI"
 
 
- const linear_searc = (e) => {
+ const linear_search = (e) => {
 
   var old_data = JSON.parse(localStorage.getItem('sorting'));
 
@@ -239,7 +238,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
           <Popper id={id} open={open} anchorEl={anchorEl}>
             <Paper className={classes.paper}>
              <Share 
-               stack_video_link={stack_video_link}/>
+               sorting_video_link={sorting_video_link}/>
             </Paper> 
           </Popper>
 
@@ -365,7 +364,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
 	              //disabled={disabl_}
 	              color="secondary"
 	              style={{maxWidth: '80px', maxHeight: '35px', minWidth: '80px', minHeight: '35px'}}
-	              onClick={linear_searc}
+	              onClick={linear_search}
 	              className={classes.button}
 	              >
 	              <span style={{fontWeight: 'bold'}}>{"Sort"}</span>
@@ -421,7 +420,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target="_blank" href={sorting_video_link}>{sorting_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

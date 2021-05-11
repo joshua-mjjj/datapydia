@@ -101,7 +101,7 @@ export default function Blog() {
 
   const [expanded, setExpanded] = React.useState(false);
 
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -325,7 +325,7 @@ function quickSort(items, left, right) {
   };
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  const list_video_link = "https://www.youtube.com/watch?v=tw7ror9x32s"
+  const list_video_link = "https://youtu.be/HdFG8L1sajw"
 
 
   return (
@@ -500,7 +500,7 @@ function quickSort(items, left, right) {
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target="_blank" href={list_video_link}>{list_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

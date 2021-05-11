@@ -104,7 +104,7 @@ export default function Blog() {
 
   const [expanded, setExpanded] = React.useState(false);
 
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+const binary_search_video_link = "https://youtu.be/V_T5NuccwRA"
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -494,7 +494,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target ="_blank" href={binary_search_video_link}>{binary_search_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

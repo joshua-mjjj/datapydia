@@ -49,8 +49,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                Joshua is a lead software architect at DataPydia. 
-                find him at git at <a href="github.com/joshua-mjjj/joshua-mjjj">github.com/joshua-mjjj/joshua-mjjj</a> 
+                Joshua is a lead software architect at DataPydia.
+                find him at git at <a href="github.com/joshua-mjjj">github.com/joshua-mjjj</a> 
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>

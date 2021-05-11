@@ -139,7 +139,7 @@ export default function Blog() {
   };
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  const list_video_link = "https://www.youtube.com/watch?v=tw7ror9x32s"
+  const towers_video_link = "https://youtu.be/rf6uf3jNjbo"
 
 
   React.useEffect(() => {
@@ -199,7 +199,7 @@ export default function Blog() {
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{list_video_link}</a>
+                  <a target="_blank" href={towers_video_link}>{towers_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

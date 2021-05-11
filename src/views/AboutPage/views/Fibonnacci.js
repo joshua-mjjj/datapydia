@@ -106,7 +106,7 @@ export default function Blog() {
   const [ user_value, setValue ] = React.useState("");
   const [ render, set_render ] = React.useState(false);
 
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+const fibonnacci_video_link = "https://youtu.be/9DV0u7encA4"
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -182,7 +182,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
           <Popper id={id} open={open} anchorEl={anchorEl}>
             <Paper className={classes.paper}>
              <Share 
-               list_video_link={list_video_link}/>
+               fibonnacci_video_link={fibonnacci_video_link}/>
             </Paper> 
           </Popper>
 
@@ -311,7 +311,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target = "_blank" href={fibonnacci_video_link}>{fibonnacci_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

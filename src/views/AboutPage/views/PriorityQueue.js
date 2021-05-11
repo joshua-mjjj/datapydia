@@ -105,7 +105,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Blog() {
   const classes = useStyles();
 
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+const prioritylist_video_link = "https://youtu.be/joX93VhNlRo"
 
   const [expanded, setExpanded] = React.useState(false);
 
@@ -379,7 +379,7 @@ For example, The element with the highest value is considered as the highest pri
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target = "_blank" href={prioritylist_video_link}>{prioritylist_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

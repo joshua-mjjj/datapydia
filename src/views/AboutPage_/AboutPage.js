@@ -49,7 +49,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1  className={classes.title}>About DataPydia.</h1>
               <h4  style={{ 'color': 'white', 'fontSize' : '20px'}}>
-                About Page for DataPydia.
+                About the DataPydia Development Team.
               </h4>
               <br />
             </GridItem>

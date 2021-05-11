@@ -30,7 +30,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Button
           href="/"
-          style={{ 'marginLeft' : '300px' }}
+          style={{ 'marginLeft' : '400px' }}
           color="transparent"
           className={classes.navLink}
         >

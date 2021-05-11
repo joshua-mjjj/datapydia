@@ -105,7 +105,7 @@ export default function Blog() {
     setExpanded(!expanded);
   };
 
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+const tree_video_link = "https://youtu.be/YAdLFsTG70w"
 
 
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -197,7 +197,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a href={tree_video_link}>{tree_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

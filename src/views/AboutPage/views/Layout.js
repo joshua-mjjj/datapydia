@@ -98,7 +98,7 @@ export default class Layout extends React.Component {
     render() {
 
       
-        const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+        const linkedlist_video_link = "https://youtu.be/dmb1i4oN5oE"
 
         const useStyles = makeStyles((theme) => ({
               root: {
@@ -358,7 +358,7 @@ export default class Layout extends React.Component {
                             You tube Video link
                           </Typography>
                           <ListItem>
-                            <a href="">{array_video_link}</a>
+                            <a target = "_blank" href={linkedlist_video_link}>{linkedlist_video_link}</a>
                           </ListItem>
                       </List>
                       </Grid>

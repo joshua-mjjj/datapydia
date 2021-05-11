@@ -101,7 +101,7 @@ export default function Blog() {
   const classes = useStyles();
 
   const [expanded, setExpanded] = React.useState(false);
-const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
+  
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -229,7 +229,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
    
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  const stack_video_link = "https://www.youtube.com/watch?v=CgFVgp_VCN8"
+  const stack_video_link = "https://youtu.be/bxRVz8zklWM"
 
 
   return (
@@ -517,7 +517,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target="_blank" href={stack_video_link}>{stack_video_link}</a>
                 </ListItem>
             </List>
            </Grid>

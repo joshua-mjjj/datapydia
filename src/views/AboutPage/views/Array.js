@@ -523,7 +523,7 @@ function quickSort(items, left, right) {
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target = "_blank" href={array_video_link}>{array_video_link}</a>
                 </ListItem>
             </List>
           </Grid>

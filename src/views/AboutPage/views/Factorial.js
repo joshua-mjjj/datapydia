@@ -138,7 +138,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
   };
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popper' : undefined;
-  const list_video_link = "https://www.youtube.com/watch?v=tw7ror9x32s"
+  const factorial_video_link = "https://youtu.be/pxh__ugRKz8"
 
 
   React.useEffect(() => {
@@ -179,7 +179,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
           <Popper id={id} open={open} anchorEl={anchorEl}>
             <Paper className={classes.paper}>
              <Share 
-               list_video_link={list_video_link}/>
+               factorial_video_link={factorial_video_link}/>
             </Paper> 
           </Popper>
 
@@ -303,7 +303,7 @@ const array_video_link = "https://www.youtube.com/watch?v=AT14lCXuMKI"
                   You tube Video link
                 </Typography>
                 <ListItem>
-                  <a href="">{array_video_link}</a>
+                  <a target = "_blank" href={factorial_video_link}>{factorial_video_link}</a>
                 </ListItem>
             </List>
             </Grid>

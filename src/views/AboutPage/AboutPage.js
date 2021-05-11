@@ -49,7 +49,7 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>DataPydia.</h1>
               <h4  style={{ 'color': 'white', 'fontSize' : '20px'}}>
-               DataPydia is a visualistic implementation of data structures taught by Dr. David Byansi.
+               DataPydia is a visualistic implementation of the various data structures in the field of computer science.
               </h4>
               <br />
             </GridItem>
